@@ -1,0 +1,25 @@
+{
+  "name": "netlify_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujiteshima/netlify-bot.git"
+  },
+  "author": "Yuji Teshima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yujiteshima/netlify-bot/issues"
+  },
+  "homepage": "https://github.com/yujiteshima/netlify-bot#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "netlify-lambda": "^1.4.13"
+  }
+}
